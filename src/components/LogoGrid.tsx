@@ -58,14 +58,12 @@ export default function LogoGrid() {
         alt: 'More button'
     }]
 
-  return (
-    <>
-     {
-        images.map((image, index) => (
-            <div>
-            <img key={index} src={image.src} alt={image.alt} className="w-20 rounded-xl" />
-            </div>
-                    ))}
-    </>
-  )
+    return (
+        <>
+            {
+                images.map((image, index) => (
+                    <img key={index} src={image.src} alt={image.alt} className="w-20 rounded-xl" />
+                ))}
+        </>
+    )
 }

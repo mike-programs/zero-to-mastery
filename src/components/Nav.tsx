@@ -15,7 +15,7 @@ function Nav() {
 
   return (
     <div className="sticky top-0 bg-white z-10">
-      <div className="flex p-4 md:px-16 md:py-5 justify-between">
+      <div className="flex p-4 lg:px-16 md:py-3 justify-between">
         <div className="md:flex md:items-center">
           <img src={logo} alt="ztm-logo" className="w-24" />
         </div>
