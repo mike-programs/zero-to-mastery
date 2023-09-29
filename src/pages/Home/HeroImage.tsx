@@ -12,7 +12,6 @@ export default function HeroImage() {
                     <img alt="hero-image" src={leftImage} className="w-24 absolute bottom-5 min-[550px]:w-[30%]" />
                     <img alt="hero-image" src={rightImage} className="w-24 absolute top-12 right-0 min-[550px]:w-[30%] xl:top-44" />
                 </div>
-                sas
                 <div className="grid grid-cols-5 my-8 gap-4 md:grid-cols-7 lg:grid-cols-11">
                     <LogoGrid />
                 </div>

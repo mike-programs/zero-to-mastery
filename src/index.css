@@ -9,3 +9,7 @@ body {
 .nav-style{
     @apply hover:underline underline-offset-8 hover:cursor-pointer decoration-primary decoration-2
 }
+
+.list-style {
+    @apply text-neutralGray font-semibold 
+}
