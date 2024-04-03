@@ -17,6 +17,7 @@ export default {
         secondary: '#4C0FFB',
         lightBlue: '#9BF9FF',
         neutralGray: '#373F49',
+        teal: '#F6F6FB'
       }
     },
   },

@@ -1,4 +1,4 @@
-import Card from "./Card";
+import Benefits from "./Benefits";
 import HeroImage from "./HeroImage";
 import LandingPage from './LandingPage';
 
@@ -11,7 +11,7 @@ export default function Home() {
 
             <LandingPage />
             <HeroImage />
-            <div className="px-4">
+            <div className="px-4 bg-[#F6F6FB]">
                 <p className="text-left font-bold text-4xl lg:text-center lg:px-56 lg:text-[2.5rem]">Our students are getting hired by top companies. We can help you too.</p>
             </div>
 
@@ -19,7 +19,7 @@ export default function Home() {
                 The infinite slider would go here.
             </div>
 
-            <Card />
+            <Benefits />
 
         </div>
     )

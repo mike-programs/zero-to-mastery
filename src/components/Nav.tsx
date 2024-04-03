@@ -14,7 +14,7 @@ function Nav() {
   }
 
   return (
-    <div className="sticky top-0 bg-white z-10">
+    <div className="sticky top-0 bg-white z-20">
       <div className="flex p-4 lg:px-16 md:py-3 justify-between">
         <div className="md:flex md:items-center">
           <img src={logo} alt="ztm-logo" className="w-24" />
@@ -28,7 +28,7 @@ function Nav() {
                 : "hidden xl:flex xl:flex-row xl:items-center xl:gap-5 xl:p-2 "
             }
           >
-            <div className="flex flex-col gap-5 text-xl font-semibold mb-5 xl:flex-row xl:my-auto xl:text-lg xl:gap-7">
+            <div className="flex flex-col gap-5 text-xl font-semibold mb-5 xl:flex-row xl:my-auto xl:text-sm xl:gap-7">
               <span>
                 Academy
                 <IconContext.Provider value={{ style: { display: "inline" } }}>

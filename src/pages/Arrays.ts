@@ -84,3 +84,18 @@ export const logos = [{
     src: more,
     alt: 'More button'
 }]
+
+export const courseListings = [
+    {
+        name: 'COURSES',
+        number: '55'
+    },
+    {
+        name: 'CAREER PATH',
+        number: '19'
+    },
+    {
+        name: 'WORKSHOPS',
+        number: '13'
+    }
+]

@@ -5,7 +5,9 @@ export default function LogoGrid() {
         <>
             {
                 logos.map((image, index) => (
-                    <img key={index} src={image.src} alt={image.alt} className="w-20 rounded-xl" />
+                    <div className="p-1 bg-white shadow-xl flex justify-center rounded-xl lg:w-20 lg:p-2">
+                        <img key={index} src={image.src} alt={image.alt} className="w-12 lg:w-16 rounded-xl" />
+                    </div>
                 ))}
         </>
     )

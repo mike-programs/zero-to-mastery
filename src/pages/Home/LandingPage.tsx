@@ -10,7 +10,7 @@ export default function () {
         </div>
 
         <div className="my-5">
-          <p className="text-[#373F49] text-xl font-thin md:text-3xl md:px-32">
+          <p className="text-[#373F49] text-xl font-light md:text-3xl md:px-32">
             The most efficient and supportive way for you to learn in-demand
             skills, get hired, and advance your career.</p>
         </div>

@@ -2,7 +2,6 @@ interface SecondaryProp {
     content: string;
     paddingX: string;
     paddingY: string;
-    color: string
 }
 
 export default function Secondary({ content, paddingX, paddingY }: SecondaryProp) {
